@@ -1,0 +1,32 @@
+This is Codec, a programmers' font in a single bitmap size.
+
+Three variants are included: proportional, monospaced, and monospaced
+condensed. The glyphs are identical, only the spacing differs.
+
+The bdf/ directory contains the original X11 fonts as designed. These
+are compiled into psf, sfd, and OpenType (bitmaps only) by the make
+process.
+
+Codec was designed in 1998 and has undergone some changes since then.
+In particular, the font as originally designed had the full-stop
+(period, ".") centred vertically, instead of on the baseline; this
+quickly irritated, and the usual positioning has now been restored.
+Additionally the caret ("^") was originally designed as an upward
+arrow with a stem which has now been removed.
+
+Many thanks to Tor Andersson for providing the bdf2sfd program that
+finally makes it possible to provide an OpenType version. The
+conversion also relies on FontForge by George Williams. Codec was
+originally drawn using xmbdfed by Mark Leisher.
+
+These fonts are copyright 1998-2010 Chris Cannam. You may copy, edit
+and redistribute Codec, provided that this README file is made
+available with each distribution, that the original copyright is
+preserved, and that any alterations are documented in this file.
+
+For the original or latest distribution of Codec, see
+
+    http://www.all-day-breakfast.com/cannam/codec.html
+
+Chris Cannam, November 1998 and July 2010
+cannam@all-day-breakfast.com
